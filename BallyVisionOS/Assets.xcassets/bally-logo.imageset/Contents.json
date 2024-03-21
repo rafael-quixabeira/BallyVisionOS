@@ -1,9 +1,8 @@
 {
   "images" : [
     {
-      "filename" : "logo.png",
-      "idiom" : "vision",
-      "scale" : "2x"
+      "filename" : "bally-logo.pdf",
+      "idiom" : "universal"
     }
   ],
   "info" : {

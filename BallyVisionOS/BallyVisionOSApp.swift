@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct BallyVisionOSApp: App {
+struct BallyLiveForVisionOSApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+        .windowStyle(.plain)
+        .windowResizability(.contentSize)
     }
 }

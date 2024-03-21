@@ -12,6 +12,10 @@
 		8920F3AC2BAB814F00A31F2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8920F3AB2BAB814F00A31F2E /* ContentView.swift */; };
 		8920F3AE2BAB815100A31F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8920F3AD2BAB815100A31F2E /* Assets.xcassets */; };
 		8920F3B12BAB815100A31F2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8920F3B02BAB815100A31F2E /* Preview Assets.xcassets */; };
+		8920F3B92BAB81D100A31F2E /* MatchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8920F3B82BAB81D100A31F2E /* MatchesView.swift */; };
+		8920F3BB2BAB81E100A31F2E /* MILBViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8920F3BA2BAB81E100A31F2E /* MILBViewModel.swift */; };
+		8920F3BD2BAB81FA00A31F2E /* MILBScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8920F3BC2BAB81FA00A31F2E /* MILBScheduleData.swift */; };
+		8920F3BF2BAB820F00A31F2E /* Worker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8920F3BE2BAB820F00A31F2E /* Worker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		8920F3AD2BAB815100A31F2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8920F3B02BAB815100A31F2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8920F3B22BAB815100A31F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8920F3B82BAB81D100A31F2E /* MatchesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesView.swift; sourceTree = "<group>"; };
+		8920F3BA2BAB81E100A31F2E /* MILBViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILBViewModel.swift; sourceTree = "<group>"; };
+		8920F3BC2BAB81FA00A31F2E /* MILBScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILBScheduleData.swift; sourceTree = "<group>"; };
+		8920F3BE2BAB820F00A31F2E /* Worker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Worker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,10 @@
 				8920F3AD2BAB815100A31F2E /* Assets.xcassets */,
 				8920F3B22BAB815100A31F2E /* Info.plist */,
 				8920F3AF2BAB815100A31F2E /* Preview Content */,
+				8920F3B82BAB81D100A31F2E /* MatchesView.swift */,
+				8920F3BA2BAB81E100A31F2E /* MILBViewModel.swift */,
+				8920F3BC2BAB81FA00A31F2E /* MILBScheduleData.swift */,
+				8920F3BE2BAB820F00A31F2E /* Worker.swift */,
 			);
 			path = BallyVisionOS;
 			sourceTree = "<group>";
@@ -155,6 +167,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8920F3AC2BAB814F00A31F2E /* ContentView.swift in Sources */,
+				8920F3BF2BAB820F00A31F2E /* Worker.swift in Sources */,
+				8920F3B92BAB81D100A31F2E /* MatchesView.swift in Sources */,
+				8920F3BD2BAB81FA00A31F2E /* MILBScheduleData.swift in Sources */,
+				8920F3BB2BAB81E100A31F2E /* MILBViewModel.swift in Sources */,
 				8920F3AA2BAB814F00A31F2E /* BallyVisionOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +303,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"BallyVisionOS/Preview Content\"";
 				DEVELOPMENT_TEAM = XHTS4DZ5B9;
 				ENABLE_PREVIEWS = YES;
@@ -297,7 +313,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = biz.clevertech.BallyVisionOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
@@ -313,9 +329,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_ASSET_PATHS = "\"BallyVisionOS/Preview Content\"";
-				DEVELOPMENT_TEAM = XHTS4DZ5B9;
+				DEVELOPMENT_TEAM = 9YT4WNDZFU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
@@ -323,8 +339,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = biz.clevertech.BallyVisionOS;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = biz.clevertech.bally4visionos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = YES;
